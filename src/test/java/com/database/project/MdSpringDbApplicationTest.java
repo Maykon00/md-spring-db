@@ -3,11 +3,11 @@ package com.database.project;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 @SpringBootTest
-class ProjectApplicationTests {
+class MdSpringDbApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+    }
 }
