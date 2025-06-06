@@ -19,12 +19,12 @@ public class CustomerController {
         this.customerService = customerService;
     }
 
-    @GetMapping(produces = "application/json")
+    @GetMapping()
     public ResponseEntity<List<CustomerResponseDTO>> getAll(){
         return ResponseEntity.ok().body(customerService.getAll());
     }
 
-    @GetMapping(value = "/{id}", produces = "application/json")
+    @GetMapping(value = "/{id}")
     public ResponseEntity<CustomerResponseDTO> findById(@PathVariable(name = "id") Long id) {
         return ResponseEntity.ok(customerService.get(id));
     }
