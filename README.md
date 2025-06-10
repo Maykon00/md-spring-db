@@ -8,6 +8,7 @@ Simple CRUD project using H2 in-memory database.
 - Spring Boot 3.5.0
 - Maven
 - H2 Database
+- JPA
 - Swagger (OpenAPI) for API documentation
 
 ## Requirements
